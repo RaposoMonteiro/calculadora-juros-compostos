@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Juros Compostos.</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main id="container">
+
+        <div id="calculator">
+
+            <h1>Calculadora de Juros Compostos.</h1>
+            <div id="input-box">
+                <div class="input-field">
+                    <label for="value">Valor Inicial(capital):</label>
+                    <input type="number" name="value" id="value">
+
+                </div>
+                <div class="input-field">
+                    <label for="fee">Taxa de Juros a.m:</label>
+                    <input type="number" name="fee" id="fee">
+
+                </div>
+                <div class="input-field">
+                    <label for="time">Tempo de Rendimento a.m:</label>
+                    <input type="number" name="time" id="time">
+
+                </div>
+            </div>
+
+            <div id="result">
+                <h2>Resultado:</h2>
+                <span id="total">
+                    R$0,00
+                </span>
+            </div>
+
+            <button id="calculate">
+                Calcular
+            </button>
+
+        </div>
+
+    </main>
+    
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
